@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Real Estate Landing Page</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+<!-- AOS CSS -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.1/aos.css" rel="stylesheet">
+
+  <!-- jQuery and Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+  
+  <!-- Transparent Navbar -->
+  <header id="header">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">RealEstate</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Properties</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero Section with Video Slider -->
+  <section id="hero" class="hero-section">
+    <div id="videoCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <video class="d-block w-100" src="video1.mp4" autoplay muted loop></video>
+        </div>
+        <div class="carousel-item">
+          <video class="d-block w-100" src="video2.mp4" autoplay muted loop></video>
+        </div>
+        <div class="carousel-item">
+          <video class="d-block w-100" src="video3.mp4" autoplay muted loop></video>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#videoCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#videoCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <div class="hero-content text-center">
+      <h1>Your Dream Property Awaits</h1>
+      <p>Find your perfect home today with our exclusive listings.</p>
+      <a href="#explore" class="btn btn-primary">Explore Now</a>
+    </div>
+  </section>
+
+  <section id="services" class="services-section mt-3">
+    <div class="parallax-background"></div>
+    <div class="container text-center">
+        <h1 class="section-title text-white mb-3">Our Exceptional Services</h1>
+        <div class="services-grid">
+            <div class="service-card" data-aos="fade-up">
+                <div class="glassmorphism-card">
+                    <i class="fas fa-tools fa-3x service-icon"></i>
+                    <h4>Labour Rate</h4>
+                    <p>Competitive rates for skilled labor.</p>
+                </div>
+            </div>
+            <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+                <div class="glassmorphism-card">
+                    <i class="fas fa-hammer fa-3x service-icon"></i>
+                    <h4>Carpenter with Supervision</h4>
+                    <p>Expert carpentry services with supervision.</p>
+                </div>
+            </div>
+            <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                <div class="glassmorphism-card">
+                    <i class="fas fa-paint-brush fa-3x service-icon"></i>
+                    <h4>Interior with Material</h4>
+                    <p>Complete interior solutions with high-quality materials.</p>
+                </div>
+            </div>
+            <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+                <div class="glassmorphism-card">
+                    <i class="fas fa-3d fa-3x service-icon"></i>
+                    <h4>3D & 4D Architecture Design</h4>
+                    <p>Innovative architectural designs in 3D and 4D.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- labour  -->
+<section class="labour-rate-section">
+  <div class="container-fluid">
+      <h1 class="section-title" data-aos="fade-up">Labour Rate</h1>
+      <div class="labour-card" data-aos="fade-up">
+          <div class="labour-image">
+              <img src="images/Cream and Pink Minimalist Professional Worker Ilustration Labor Day Facebook Cover.png" alt="Labour Rate" class="img-fluid labourimg" /> <!-- Placeholder for your image -->
+          </div>
+          <h3>Skilled Labour at Competitive Rates</h3>
+          <p>We provide only skilled labor at competitive rates for all your construction needs. No additional costs, just quality workmanship.</p>
+          <div class="key-features">
+              <div class="feature">
+                  <i class="fa fa-tools"></i> <!-- FontAwesome icon for tools -->
+                  <h4>Experienced Workers</h4>
+                  <p>Our team consists of highly experienced professionals.</p>
+              </div>
+              <div class="feature">
+                  <i class="fa fa-user-check"></i> <!-- FontAwesome icon for supervision -->
+                  <h4>Supervision Provided</h4>
+                  <p>We provide on-site supervision for quality assurance.</p>
+              </div>
+              <div class="feature">
+                  <i class="fa fa-clock"></i> <!-- FontAwesome icon for time -->
+                  <h4>Timely Delivery</h4>
+                  <p>We ensure that all work is completed on schedule.</p>
+              </div>
+              <div class="feature">
+                  <i class="fa fa-thumbs-up"></i> <!-- FontAwesome icon for satisfaction -->
+                  <h4>Customer Satisfaction</h4>
+                  <p>Your satisfaction is our top priority, guaranteed!</p>
+              </div>
+          </div>
+          <a href="#" class="btn btn-primary">Get a Quote</a>
+      </div>
+  </div>
+</section>
+
+<section class="carpenter-supervision-section">
+  <div class="container-fluid">
+      <h1 class="section-title" data-aos="fade-up">Carpenter with Supervision</h1>
+      <div class="carpenter-card" data-aos="fade-up">
+          <div class="carpenter-image">
+              <img src="path/to/your/image.jpg" alt="Carpenter Supervision" /> <!-- Placeholder for your image -->
+          </div>
+          <h3>Expert Carpentry Services</h3>
+          <p>We offer skilled carpentry with professional supervision to ensure quality and precision in every project.</p>
+          <div class="key-features">
+              <div class="feature">
+                  <i class="fa fa-hammer"></i> <!-- FontAwesome icon for hammer -->
+                  <h4>Quality Materials</h4>
+                  <p>Only the best materials are used for all carpentry work.</p>
+              </div>
+              <div class="feature">
+                  <i class="fa fa-user-shield"></i> <!-- FontAwesome icon for supervision -->
+                  <h4>Supervision Included</h4>
+                  <p>All projects are supervised by skilled professionals.</p>
+              </div>
+              <div class="feature">
+                  <i class="fa fa-tools"></i> <!-- FontAwesome icon for tools -->
+                  <h4>Precision Craftsmanship</h4>
+                  <p>Attention to detail in every aspect of carpentry.</p>
+              </div>
+              <div class="feature">
+                  <i class="fa fa-calendar-check"></i> <!-- FontAwesome icon for scheduling -->
+                  <h4>On-Time Completion</h4>
+                  <p>We respect your time and ensure timely project delivery.</p>
+              </div>
+          </div>
+          <a href="#" class="btn btn-primary">Request a Quote</a>
+      </div>
+  </div>
+</section>
+
+<section class="interior-material-section text-center">
+  <div class="container-fluid">
+      <h1 class="section-title" data-aos="fade-up">Interior with Material</h1>
+      <div class="interior-card" data-aos="fade-up">
+          <div class="interior-image">
+              <img src="path/to/your/interior-image.jpg" alt="Interior Design" /> <!-- Placeholder for your image -->
+          </div>
+          <h3>Complete Interior Solutions</h3>
+          <p>We provide top-notch interior designs with premium materials, tailored to your specific needs.</p>
+          <div class="key-features">
+              <div class="feature">
+                  <i class="fa fa-paint-roller"></i> <!-- FontAwesome icon for paint roller -->
+                  <h4>Stylish Designs</h4>
+                  <p>Our designs are contemporary and elegant, perfect for any space.</p>
+              </div>
+              <div class="feature">
+                  <i class="fa fa-cogs"></i> <!-- FontAwesome icon for settings -->
+                  <h4>Quality Materials</h4>
+                  <p>We use only the finest materials to ensure durability and aesthetic appeal.</p>
+              </div>
+              <div class="feature">
+                  <i class="fa fa-lightbulb"></i> <!-- FontAwesome icon for light bulb -->
+                  <h4>Innovative Solutions</h4>
+                  <p>Creative designs that enhance the functionality of your space.</p>
+              </div>
+              <div class="feature">
+                  <i class="fa fa-clock"></i> <!-- FontAwesome icon for clock -->
+                  <h4>Timely Delivery</h4>
+                  <p>Your project will be completed on schedule, every time.</p>
+              </div>
+          </div>
+          <a href="#" class="btn btn-primary">Get a Free Consultation</a>
+      </div>
+  </div>
+</section>
+
+
+<section class="architecture-design-section text-center">
+  <div class="container-fluid">
+      <h1 class="section-title"  data-aos="fade-up">3D & 4D Architecture Design</h1>
+      <div class="architecture-card" data-aos="fade-up">
+          <div class="architecture-image">
+              <img src="path/to/your/architecture-image.jpg" alt="3D & 4D Architecture Design" /> <!-- Placeholder for your image -->
+          </div>
+          <h3>Innovative Architectural Solutions</h3>
+          <p>We specialize in 3D & 4D architectural designs that bring your vision to life with stunning precision.</p>
+          <div class="key-features">
+              <div class="feature">
+                  <i class="fa fa-drafting-compass"></i> <!-- FontAwesome icon for drafting -->
+                  <h4>Detailed Designs</h4>
+                  <p>Our designs offer unparalleled detail and accuracy.</p>
+              </div>
+              <div class="feature">
+                  <i class="fa fa-eye"></i> <!-- FontAwesome icon for visualization -->
+                  <h4>Realistic Visualizations</h4>
+                  <p>Experience your project through lifelike 3D renderings.</p>
+              </div>
+              <div class="feature">
+                  <i class="fa fa-clock"></i> <!-- FontAwesome icon for time -->
+                  <h4>Efficient Project Management</h4>
+                  <p>We ensure your project stays on schedule and within budget.</p>
+              </div>
+              <div class="feature">
+                  <i class="fa fa-thumbs-up"></i> <!-- FontAwesome icon for satisfaction -->
+                  <h4>Client Satisfaction</h4>
+                  <p>Your satisfaction is our priority, guaranteed!</p>
+              </div>
+          </div>
+          <a href="#" class="btn btn-primary">Get a Free Consultation</a>
+      </div>
+  </div>
+</section>
+
+
+  <!-- Custom JS -->
+  <script src="script.js"></script>
+  <script>
+    // Navbar Scroll Change
+$(window).scroll(function() {
+  if ($(this).scrollTop() > 50) {
+    $('.navbar').addClass('scrolled');
+  } else {
+    $('.navbar').removeClass('scrolled');
+  }
+});
+
+  </script>
+  <!-- AOS JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.1/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+
+</body>
+</html>
