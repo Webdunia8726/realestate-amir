@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Partners</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <style>
+        .partners-section {
+            text-align: center;
+            padding: 50px 0;
+            background-color: #f9f9f9; /* Light background color */
+        }
+
+        .partners-section h2 {
+            margin-bottom: 20px;
+            font-size: 2em; /* Larger font size for the title */
+            color: #333; /* Dark text color */
+        }
+
+        .partners-logos {
+            margin: auto;
+            max-width: 90%; /* Max width for responsiveness */
+        }
+
+        .logo img {
+            width: 100px; /* Set a fixed width for all logos */
+            height: auto; /* Maintain aspect ratio */
+            margin: 0 auto; /* Center the logo */
+            display: block; /* Center logos */
+        }
+    </style>
+</head>
+<body>
+
+<section class="partners-section">
+    <h2>Our Partners</h2>
+    <div class="partners-logos">
+        <div class="logo"><img src="path/to/logo1.png" alt="Partner 1"></div>
+        <div class="logo"><img src="path/to/logo2.png" alt="Partner 2"></div>
+        <div class="logo"><img src="path/to/logo3.png" alt="Partner 3"></div>
+        <div class="logo"><img src="path/to/logo4.png" alt="Partner 4"></div>
+        <div class="logo"><img src="path/to/logo5.png" alt="Partner 5"></div>
+    </div>
+</section>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script>
+$(document).ready(function(){
+    $('.partners-logos').slick({
+        dots: true, // Show dots for navigation
+        infinite: true, // Infinite loop sliding
+        speed: 500, // Transition speed
+        slidesToShow: 3, // Number of logos to show at once
+        slidesToScroll: 1, // Number of logos to scroll
+        autoplay: true, // Enable autoplay
+        autoplaySpeed: 2000, // Autoplay speed
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 2 // Adjust the number of logos to show on larger screens
+                }
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 1 // Show one logo on smaller screens
+                }
+            }
+        ]
+    });
+});
+</script>
+
+</body>
+</html>
